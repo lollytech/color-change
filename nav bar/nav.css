@@ -1,0 +1,50 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+header{
+        height: 100vh;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #60a3ab;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
+    height: 5rem;
+}
+div{
+    background-color: blueviolet;
+    height: 5rem;
+    width: 10rem;
+    
+}
+
+@media only screen and (max-width: 700px){
+    div{
+        background-color: blueviolet;
+        height: 5rem;
+        width: 7rem;
+        
+    }
+    
+    span{
+        background-color: red;
+        height: 20rem;
+        width: 7rem;
+   
+    }
+}
+
+span{
+    background-color: blue;
+    height: 5rem;
+    width: 16rem;
+   
+}
